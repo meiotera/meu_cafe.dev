@@ -1,0 +1,17 @@
+.navbar li {
+  list-style: none;
+  padding: 5px;
+}
+
+.navbar ul {
+  display: flex;
+  margin: 0; /* Removido o margin */
+  padding: 0; /* Removido o padding */
+}
+
+.navbar a {
+  padding: 12px 15px;
+  background-color: #0e8784;
+  border-radius: 5px;
+  color: #fefcf7;
+}

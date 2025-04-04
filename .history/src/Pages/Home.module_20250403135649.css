@@ -1,0 +1,24 @@
+.collection {
+  padding: 30px;
+}
+.collectionCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cafeCard {
+  flex: 1 1 260px;
+  border: 2px solid brown;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgContainer {
+  width: 260px;
+}
+
+.imgContainer img {
+  width: 100%;
+}

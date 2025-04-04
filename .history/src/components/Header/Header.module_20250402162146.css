@@ -1,0 +1,7 @@
+.header {
+  width: 100%;
+}
+
+.containerImg img {
+  transform: rotate(90deg);
+}

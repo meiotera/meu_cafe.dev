@@ -1,0 +1,7 @@
+.header {
+  width: 100%;
+  height: max-content;
+  color: rgba(50, 49, 49, 0.93);
+
+  display: flex;
+}

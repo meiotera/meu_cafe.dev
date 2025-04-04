@@ -1,0 +1,42 @@
+.section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', sans-serif;
+  color: #4e342e;
+  line-height: 1.6;
+}
+
+.section h2 {
+  font-size: 1.75rem;
+  margin-bottom: 15px;
+  color: #3e2723;
+  position: relative;
+}
+
+.section h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #a1887f;
+  margin-top: 8px;
+  border-radius: 2px;
+}
+
+.section p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: #5d4037;
+}
+
+.frase {
+  background-color: #f5f1eb;
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 1.25rem;
+  font-style: italic;
+  color: #795548;
+  font-family: 'Georgia', serif;
+  margin-top: 40px;
+}

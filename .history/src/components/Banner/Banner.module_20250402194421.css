@@ -1,0 +1,51 @@
+/* Banner.module.css */
+
+.banner {
+  background-image: linear-gradient(to left, #6f4e37, #cc5500);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containerText {
+  color: #fefcf7;
+  flex: 2 1 380px;
+  padding: 15px;
+}
+
+.containerImg {
+  flex: 1 1 300px;
+  padding: 15px;
+}
+
+.containerImg img {
+  width: 100%;
+}
+
+.button {
+  background-color: #cc5500;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fefcf7;
+  cursor: pointer;
+}
+
+/* Media query para telas menores */
+@media (max-width: 768px) {
+  .banner {
+    flex-direction: column; /* Muda para coluna em telas menores */
+    text-align: center; /* Centraliza o texto */
+  }
+
+  .containerText {
+    flex: 1 1 auto;
+    width: 100%;
+  }
+
+  .containerImg {
+    flex: 1 1 auto;
+    width: 100%;
+  }
+}

@@ -1,0 +1,16 @@
+.header {
+  height: max-content;
+  color: rgba(50, 49, 49, 0.93);
+
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  font-size: 2.5em;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}

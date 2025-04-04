@@ -1,0 +1,3 @@
+.containerImg img {
+  transform: rotateY('angle');
+}

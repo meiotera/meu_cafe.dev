@@ -1,0 +1,19 @@
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+
+const NavBar = () => {
+  return (
+    <nav className="navbar">
+      <ul>
+        <li>
+          <NavLink to={'/'}>Home</NavLink>
+        </li>
+        <li>
+          <NavLink to={'/sobre'}>Sobre</NavLink>
+        </li>
+        <li>Planos</li>
+      </ul>
+    </nav>
+  );
+};
+export default NavBar;

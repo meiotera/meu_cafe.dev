@@ -1,0 +1,10 @@
+.header {
+  width: 100%;
+}
+
+.containerImg {
+  background-image: url('../../../public/img/saca.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

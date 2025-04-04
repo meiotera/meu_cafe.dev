@@ -1,0 +1,30 @@
+.header {
+  width: 100%;
+  height: max-content;
+  color: rgba(50, 49, 49, 0.93);
+}
+
+.containerImg {
+  background-image: url('../../../public/img/graos2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-clip: border-box;
+
+  border-radius: 10px;
+  padding: 30px;
+
+  color: #fefcf7;
+}
+
+.containerText {
+  color: #fefcf7;
+  width: 380px;
+}
+
+.button {
+  border: none;
+  background-color: #0e8784;
+  border-radius: 5px;
+  padding: 12px 15px;
+}

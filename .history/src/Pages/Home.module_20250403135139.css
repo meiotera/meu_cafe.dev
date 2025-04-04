@@ -1,0 +1,8 @@
+.collection {
+  padding: 30px;
+}
+.collectionCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

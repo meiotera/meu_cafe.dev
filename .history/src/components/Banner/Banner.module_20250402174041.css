@@ -1,0 +1,55 @@
+.containerImg {
+  background-image: linear-gradient(
+    to left,
+    #6f4e37,
+    #cc5500
+  ); /* Marrom para Laranja Queimado */
+
+  border-radius: 10px;
+
+  color: #fefcf7;
+
+  border-radius: 10px;
+  padding: 30px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #fefcf7;
+}
+
+.containerText {
+  color: #fefcf7;
+  width: 380px;
+
+  flex: 1;
+}
+
+.containerText h2 {
+  font-size: 2.5em;
+}
+
+.img {
+  flex: 1;
+}
+
+.img img {
+  width: 100%;
+}
+
+.button {
+  border: none;
+  background-color: #0e8784;
+  border-radius: 5px;
+  padding: 12px 15px;
+  color: #fefcf7;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+
+.button:hover {
+  background-color: #189b99;
+}

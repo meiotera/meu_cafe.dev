@@ -1,0 +1,20 @@
+.header {
+  width: 100%;
+  height: max-content;
+
+  color: brown;
+}
+
+.containerImg {
+  background-image: url('../../../public/img/saca.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.containerText {
+  width: 450px;
+}

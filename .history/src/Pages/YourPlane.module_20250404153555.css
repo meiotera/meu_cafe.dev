@@ -1,0 +1,122 @@
+.planos {
+  padding: 60px 20px;
+  background-color: #fdfaf6;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.planos h2 {
+  font-size: 2rem;
+  color: #3e2723;
+  margin-bottom: 40px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  padding: 30px 20px;
+  width: 280px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  font-size: 1.4rem;
+  color: #4e342e;
+  margin-bottom: 10px;
+}
+
+.preco {
+  font-size: 1.2rem;
+  color: #6d4c41;
+  margin-bottom: 10px;
+}
+
+.descricao {
+  font-size: 0.95rem;
+  color: #795548;
+  margin-bottom: 15px;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.card ul li {
+  margin: 8px 0;
+  font-size: 0.9rem;
+  color: #5d4037;
+}
+
+.card button {
+  background-color: #6d4c41;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #4e342e;
+}
+
+.personalizadoCard {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  padding: 30px 20px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.95rem;
+  color: #4e342e;
+}
+
+.form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+.form button {
+  background-color: #6d4c41;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #4e342e;
+}

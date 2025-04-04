@@ -1,0 +1,9 @@
+.header {
+  height: max-content;
+  color: rgba(50, 49, 49, 0.93);
+
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
